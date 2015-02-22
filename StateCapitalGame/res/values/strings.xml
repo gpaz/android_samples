@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 12, 2013                                                   |
+ |     Name :  strings.xml                                                    |
+ |  Purpose :  Provides strings to the application.                           |
+ |                                                                            |
+ |***************************************************************************-->
+ 
+<resources>
+    <string name="app_name">State-Capital Match Game</string>
+    <string name="game_title">Match Game\nCapital-to-State</string>
+    <string name="loading">Loading...</string>
+    <string name="play">Play</string>
+    <string name="scores">Scores</string>
+    <string name="alias_label">User Name</string>
+    <string name="alias_hint">Your Username Here</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_return">Return</string>
+    <string name="table_name">Top Players</string>
+    <string name="position_label">No</string>
+    <string name="player_label">Player</string>
+    <string name="ratio_label">C/T</string>
+    <string name="score_label">Pts</string>
+    <string name="time_label">Time</string>
+    <string name="instructions">
+       Instructions: Type the correct capitals adjacent to the given U.S. State.
+    </string>
+    <string name="end_instructions">
+       NOTE: Click Submit when you are done.
+    </string>
+</resources>

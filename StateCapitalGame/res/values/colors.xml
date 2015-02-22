@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 12, 2013                                                   |
+ |     Name :  colors.xml                                                     |
+ |  Purpose :  Provides colors to the application.                               |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources xmlns="http://schemas.android.com/apk/res/android" >
+   <color name="splash_background">#FFF7D180</color>
+   <color name="flag_blue">#99042D9E</color>
+   <color name="flag_red">#FFD1041D</color>
+   <color name="flag_white">#99FFFFFF</color>
+   <color name="start_screen_background">#FFcccccc</color>
+   <color name="bar_color">#FF106510</color>
+   <color name="green">#FF339B3E</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 16, 2013                                                   |
+ |     Name :  integers.xml                                                   |
+ |  Purpose :  Provide integers to the application.                           |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources xmlns="http://schemas.android.com/apk/res/android" >
+   <integer name="num_top_players">10</integer>
+</resources>

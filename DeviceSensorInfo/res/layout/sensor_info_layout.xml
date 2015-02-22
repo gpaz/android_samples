@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_number" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_name" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_vendor" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_version" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_maximum_range" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_minimum_delay" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_power" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_resolution" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_fifo_max_event_count" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_fifo_reserved_event_count" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_class_name"
+        android:visibility="gone" />
+    
+    <include layout="@layout/sensor_info_text_view"
+        android:id="@+id/sensor_int_type"
+        android:visibility="gone" />
+    
+</LinearLayout>

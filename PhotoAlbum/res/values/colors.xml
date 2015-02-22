@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>        |
+ |     Date :  Jul 5, 2013        |
+ |     Name :  colors.xml    |
+ |  Purpose :  Provides colors to the activity.                               |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources xmlns="http://schemas.android.com/apk/res/android" >
+   <color name="transparent">#00000000</color>
+</resources>

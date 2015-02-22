@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 19, 2013                                                   |
+ |     Name :  state_list_layout.xml                                          |
+ |  Purpose :  Layout for StateListActivity, utilizes a List view that will   |
+ |             be populated when the activity runs.                           |
+ |                                                                            |
+ |***************************************************************************-->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="match_parent"
+   android:layout_width="match_parent"
+   android:padding="8dp"
+   android:background="@android:color/black">
+   <LinearLayout 
+      android:id="@+id/top_bar"
+      android:layout_alignParentTop="true"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/black"
+      android:gravity="center_vertical" >
+      <TextView  
+         android:id="@+id/instructions_field"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+         android:text="@string/instructions"
+         android:textColor="@android:color/white"
+         android:background="@android:color/transparent"
+      />
+   </LinearLayout>
+   <LinearLayout 
+      android:id="@+id/bottom_bar"
+      android:layout_alignParentBottom="true"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:drawable/bottom_bar"
+      android:gravity="center_vertical" >
+      <TextView  
+         android:id="@+id/capital_field"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" 
+         android:textColor="@android:color/white"
+         android:textStyle="bold"
+         android:gravity="center"
+         android:textSize="25sp"
+      />
+   </LinearLayout>
+   <ListView
+      android:id="@android:id/list"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_below="@id/top_bar"
+      android:layout_above="@id/bottom_bar"
+      android:choiceMode="singleChoice"
+      android:divider="@color/divider" 
+      android:dividerHeight="1px"
+      android:drawSelectorOnTop="false">
+   </ListView>
+</RelativeLayout>

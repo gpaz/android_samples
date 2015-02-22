@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jun 22, 2013                                                   |
+ |     Name :  colors.xml                                                     |
+ |  Purpose :  Stores color values.                                           |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources xmlns="http://schemas.android.com/apk/res/android" >
+   
+   <!-- Background color for the drawable space (WHITE) -->
+   <color name = "canvas_color">#FFFFFFFF</color>
+   
+   <!-- Background for the button space (GRAY)-->
+   <color name = "lower_color">#FF777777</color>
+
+</resources>

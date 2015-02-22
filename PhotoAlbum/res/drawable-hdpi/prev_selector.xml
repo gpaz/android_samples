@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  July 2, 2013                                                   |
+ |     Name :  prev_selector.xml                                              |
+ |  Purpose :  Placed inside the drawable folder, this selector is available  |
+ |             to the main.xml layout in order to make the 'prev' button      |
+ |             transparent when the user is not clicking, and non-transparent |
+ |             when the user clicks it.                                       |
+ |                                                                            |
+ |***************************************************************************-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" 
+          android:drawable="@drawable/less_than" />
+    <item android:state_selected="true" 
+          android:drawable="@drawable/less_than" />
+    <item android:drawable="@drawable/less_than_70transparency" />
+</selector>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_vertical" >
+
+        <!--
+             placed inside a FrameLayout so that it can expand from one line
+             all the way down to the button layout and not surpassing it
+        -->
+        <EditText
+            android:id="@+id/message_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/message_hint"
+            android:inputType="textAutoComplete|textMultiLine"
+            android:padding="@dimen/padding_horizontal" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/broadcast_btn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal_half"
+            android:layout_marginTop="@dimen/margin_vertical"
+            android:paddingBottom="@dimen/padding_vertical"
+            android:paddingLeft="@dimen/padding_horizontal"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingTop="@dimen/padding_vertical"
+            android:text="@string/broadcast_button_text"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:layout_marginLeft="@dimen/margin_horizontal_half"
+            android:layout_marginRight="@dimen/margin_horizontal"
+            android:layout_marginTop="@dimen/margin_vertical"
+            android:paddingBottom="@dimen/padding_vertical"
+            android:paddingLeft="@dimen/padding_horizontal"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingTop="@dimen/padding_vertical"
+            android:text="@string/clear_button_text"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 12, 2013                                                   |
+ |     Name :  startscreen.xml                                                |
+ |  Purpose :  Layout for the main activity that allows for input of a user   |
+ |             name and buttons to play the game or to view top scores.       |
+ |                                                                            |
+ |***************************************************************************-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/start_screen_background">
+   <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/zero"
+      android:paddingTop="30dip"
+      android:background="@android:color/transparent"
+      android:src="@drawable/us_states"
+      android:scaleType="centerInside"
+      android:layout_weight="1"
+   />
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/zero"
+      android:gravity="center_horizontal|center_vertical"
+      android:paddingLeft="@dimen/user_layout_padding"
+      android:paddingRight="@dimen/user_layout_padding"
+      android:layout_weight="1">
+      <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="@dimen/zero"
+         android:layout_gravity="bottom"
+         android:layout_marginRight="10dp"
+         android:gravity="right"
+         android:text="@string/alias_label"
+         android:textColor="@android:color/black"
+         android:textSize="@dimen/user_text_size"
+         android:layout_weight="1"
+         
+      />
+      <AutoCompleteTextView android:id="@+id/edit_username"
+         android:layout_height="wrap_content"
+         android:layout_width="@dimen/zero"
+         android:layout_gravity="bottom"
+         android:hint="@string/alias_hint"
+         android:textSize="@dimen/user_text_size"
+         android:inputType="textNoSuggestions"
+         android:layout_weight="3"
+      />
+   </LinearLayout>
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/zero"
+      android:gravity="center|bottom"
+      android:paddingLeft="@dimen/user_layout_padding"
+      android:paddingRight="@dimen/user_layout_padding"
+      android:layout_weight="1">
+      <Button android:id="@+id/btn_play"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/play"
+         android:textSize="@dimen/button_text_size"
+         android:layout_marginLeft="@dimen/button_margin"
+         android:layout_marginRight="@dimen/button_margin"
+         android:paddingLeft="@dimen/button_padding"
+         android:paddingRight="@dimen/button_padding"
+         android:onClick="goPlay"
+      />
+      <Button android:id = "@+id/btn_scores"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/scores"
+         android:textSize="@dimen/button_text_size"
+         android:layout_marginLeft="@dimen/button_margin"
+         android:layout_marginRight="@dimen/button_margin"
+         android:paddingLeft="@dimen/button_padding"
+         android:paddingRight="@dimen/button_padding"
+         android:onClick="viewScores"
+      />
+   </LinearLayout>
+</LinearLayout>
+

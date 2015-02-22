@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  July 2, 2013                                                   |
+ |     Name :  main.xml                                                       |
+ |  Purpose :  Layout for the PhotoAlbum Activity.  Utilizes a FrameLayout    |
+ |             in order to place the two 'next' and 'previous' buttons on     |
+ |             top of the Image.                                              |
+ |                                                                            |
+ |***************************************************************************-->
+ 
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width = "match_parent"
+   android:layout_height = "match_parent" >
+   
+   <!-- Photo Space -->
+   <ImageView 
+      android:id = "@+id/screen_img"
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+      android:scaleType = "fitCenter"
+      android:contentDescription="@string/image_view_description"
+   />
+   
+   <!-- 'Previous'   Button -->
+   <ImageButton
+      android:id="@+id/prev_btn"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center|left"
+      android:scaleType="fitXY"
+      android:background="@drawable/prev_selector"
+      android:onClick="prevImage"
+   />
+   
+   <!-- 'Next' Button -->
+   <ImageButton
+      android:id="@+id/next_btn"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center|right"
+      android:scaleType="fitXY"
+      android:background="@drawable/next_selector"
+      android:onClick="nextImage"
+   />
+   
+</FrameLayout>  

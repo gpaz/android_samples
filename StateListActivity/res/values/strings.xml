@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 12, 2013                                                   |
+ |     Name :  strings.xml                                                    |
+ |  Purpose :  Provides strings to the application.                           |
+ |                                                                            |
+ |***************************************************************************-->
+<resources>
+    <string name="app_name">StateListActiviy</string>
+    <string name="instructions">Select State to get its Capital</string>
+    <string name="app_label">U.S. Capitals</string>
+</resources>

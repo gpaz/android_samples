@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">DemoBroadcastReceiver</string>
+    <string name="message_hint">Please type a message to broadcast</string>
+    <string name="broadcast_button_text">Broadcast</string>
+    <string name="action_broadcast">com.glo.cs311d.actions.SEND_MESSAGE</string>
+    <string name="broadcast_message_key">broadcast-message</string>
+    <string name="tag_send_broadcast">send-broadcast</string>
+    <string name="tag_clear_text">clear-text</string>
+    <string name="clear_button_text">Clear Text</string>
+    <string name="custom_mime_type">alert/message-text</string>
+    <string name="message_received">Hey! You received a message :)</string>
+    <string name="extra_message">message</string>
+    <string name="no_message">NO MESSAGES</string>
+    
+</resources>
