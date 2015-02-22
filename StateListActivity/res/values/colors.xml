@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 18, 2013                                                   |
+ |     Name :  colors.xml                                                     |
+ |  Purpose :  Provides colors to the application                             |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources xmlns="http://schemas.android.com/apk/res/android" >
+   <color name="divider">#FFFF8F00</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jun 22, 2013                                                   |
+ |     Name :  strings.xml                                                    |
+ |  Purpose :  Stores string values                                           |
+ |                                                                            |
+ |***************************************************************************-->
+<resources>
+   
+    <!-- Layout Strings -->
+    
+    <string name = "app_name">RandomCircleActivity</string>
+    <string name = "btn_pushme">Push Me</string>
+    <string name = "btn_clear">Clear</string>
+    <string name = "btn_pushme_land">Push\nMe</string>
+    
+    <!-- Names of portrait configuration variables -->
+    
+    <string name = "port_x">portx</string>
+    <string name = "port_y">porty</string>
+    <string name = "port_color">portc</string>
+    
+    <!-- Names of landscape configuration variables -->
+    
+    <string name = "land_x">landx</string>
+    <string name = "land_y">landy</string>
+    <string name = "land_color">landc</string>
+    
+    <!-- Log Strings -->
+    
+    <string name = "log_tag">DrawCircle</string>
+    <string name = "log_string_port">Portrait mode not initialized.</string>
+    <string name = "log_string_land">Landscape mode not initialized.</string>
+    
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com                                  |
+ |     Date :  Jun 28, 2013                                                   |
+ |     Name :  strings.xml                                                    |
+ |  Purpose :  Store strings used by the main activity.                       |
+ |                                                                            |
+ |***************************************************************************-->
+<resources>
+    <string name="app_name">PhotoAlbum</string>
+    <string name="image_view_description">My Image</string>
+    <string name="msg_no_images">
+       There are no supported images in the specified directory
+    </string>
+    <string name="msg_out_of_bounds">Try Again</string>
+    <string name="image_directory">/DCIM/Camera/</string>
+</resources>

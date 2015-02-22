@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jun 22, 2013                                                   |
+ |     Name :  layout-land/main.xml                                           |
+ |  Purpose :  Landscape layout configuration.                                |
+ |                                                                            |
+ |***************************************************************************-->
+
+<!-- Landscape Layout Start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:gravity="bottom"
+   android:baselineAligned="false" >
+   
+   <!-- Nested Layout #1; Container for the drawable area above the buttons -->
+   <LinearLayout  
+      android:layout_height="match_parent" 
+      android:layout_width="wrap_content"
+      android:layout_weight="4"
+      android:layout_gravity="bottom"
+      android:background="@color/canvas_color" >
+      
+      <!-- Inherited from the View class, draws random circles in itself -->
+      <com.cs211d.a2.DrawCircle
+         android:id = "@+id/Draw_Space"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+      />
+      
+   </LinearLayout>
+   
+   <!-- Nested Layout #2; Container for the two buttons -->
+   <LinearLayout 
+      android:orientation="vertical"
+      android:background="@color/lower_color"
+      android:layout_height="match_parent" 
+      android:layout_width="100dp" 
+      android:gravity="center_vertical"
+      android:layout_weight="1"
+      android:padding="10dp" >
+   
+      <!-- 'Push Me' Button -->
+      <Button 
+         android:id="@+id/Button_Clear" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" 
+         android:layout_weight="1"
+         android:text="@string/btn_clear"
+         android:onClick="buttonHandler"
+      />
+   
+      <!-- 'Clear' Button -->
+      <Button 
+         android:id="@+id/Button_PushMe" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" 
+         android:text="@string/btn_pushme_land"
+         android:layout_weight="1"
+         android:onClick="buttonHandler"
+      />
+      
+   </LinearLayout>
+   
+<!-- End Landscape Layout -->
+</LinearLayout>

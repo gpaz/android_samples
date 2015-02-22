@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="empty_field">
+        <item quantity="one" >Please enter values in the %s field.</item>
+        <item quantity="other" >Please enter values in the %s fields.</item>
+    </plurals>
+</resources>

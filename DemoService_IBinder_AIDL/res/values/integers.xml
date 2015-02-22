@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- activity_prime_number -->
+    <integer name="prinumact_results_weight">4</integer>
+    <integer name="prinumact_input_weight">1</integer>
+    <integer name="prinumact_btngo_weight">1</integer>
+
+</resources>

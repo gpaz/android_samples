@@ -1,0 +1,7 @@
+Galo Paz
+CS311D
+Assignment #1
+
+Sample Log Output
+
+08-30 21:40:22.288: D/MessageReceived(5875): Let's play ball!

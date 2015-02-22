@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- activity_prime_number -->
+    <string name="hint_from">from</string>
+    <string name="hint_to">to</string>
+    <string name="hint_count">count</string>
+    <string name="btn_go">Get Prime Numbers</string>
+    <string name="hint_prime_numbers">[PRIME 1, PRIME 2, ...., PRIME n]</string>
+    <string name="action_button_text">Generate Prime</string>
+  
+  </resources>

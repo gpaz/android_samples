@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************************************************|
+ |                                                                            |
+ |   Author :  Galo Paz <galopaz@outlook.com>                                 |
+ |     Date :  Jul 15, 2013                                                   |
+ |     Name :  arrays.xml                                                     |
+ |  Purpose :  Provides arrays for the application                            |
+ |                                                                            |
+ |***************************************************************************-->
+
+<resources >
+   <string-array name="state_fields">
+      <item>state0</item>
+      <item>state1</item>
+      <item>state2</item>
+      <item>state3</item>
+      <item>state4</item>
+      <item>state5</item>
+      <item>state6</item>
+      <item>state7</item>
+      <item>state8</item>
+      <item>state9</item>
+   </string-array>
+   <string-array name="capital_fields">
+      <item>capital0</item>
+      <item>capital1</item>
+      <item>capital2</item>
+      <item>capital3</item>
+      <item>capital4</item>
+      <item>capital5</item>
+      <item>capital6</item>
+      <item>capital7</item>
+      <item>capital8</item>
+      <item>capital9</item>
+   </string-array>
+</resources>

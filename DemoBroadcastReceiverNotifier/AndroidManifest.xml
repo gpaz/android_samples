@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glo.cs311d"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.DemoBroadcastActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".activity.DisplayMessageActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="@string/custom_mime_type"/>
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receivers.MessageToNotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.glo.cs311d.actions.SEND_MESSAGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
